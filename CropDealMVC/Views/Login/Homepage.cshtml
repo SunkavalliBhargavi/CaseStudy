@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Homepage";
+}
+
+<h1>Seed of Life</h1>
+
+<style>
+
+    #background {
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210302/pngtree-crop-green-rice-light-effect-wallpaper-image_571433.jpg');
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 30vw;
+        height: 30vh;
+    }
+
+    #text_homePage {
+        font-family: "Times New Roman Bold Italic";
+    }
+</style>
+
+<body id="background">
+    <div>
+        <h2 id="Booking_Heading">Home </h2>
+
+    </div>
+
+
+    <div style="padding-top: 55px;">
+        <h2 id="text_homePage">To Login click here </h2>
+        <h2 id="text_homePage">
+            @Html.ActionLink("Login", "LoginUser") </h2>
+        <h2 id=" text_homePage">To Register click here</h2>
+        <h2 id="text_homePage">
+            @Html.ActionLink("Register", "RegisterUser")</h2>
+    </div>
+</body>
+
