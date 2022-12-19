@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b725d11c290e4189b44685d65efa656e" Name="Diagram1">
+        <EntityTypeShape EntityType="CropdealDBModel.ADMIN" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CropdealDBModel.BANK_DETAILS" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CropdealDBModel.CROP" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CropdealDBModel.INVOICE" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CropdealDBModel.ORDER" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CropdealDBModel.UserProfile" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="CropdealDBModel.FK__BANK_DETA__User___4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="CropdealDBModel.FK__CROP__User_ID__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="CropdealDBModel.FK__INVOICE__Crop_ID__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="CropdealDBModel.FK__ORDERS__Crop_ID__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="CropdealDBModel.FK__INVOICE__Orders___49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="CropdealDBModel.FK__INVOICE__User_ID__48CFD27E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
